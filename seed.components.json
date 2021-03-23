@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2020-09-01T09:31:26.345Z",
+      "updated_at": "2020-09-01T09:31:26.345Z",
+      "id": 1078840,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": null
+    },
+    {
+      "name": "Post",
+      "display_name": null,
+      "created_at": "2020-09-02T09:22:34.928Z",
+      "updated_at": "2020-09-02T10:10:38.901Z",
+      "id": 1081187,
+      "schema": {
+        "title": {
+          "type": "text",
+          "required": true,
+          "max_length": "500",
+          "pos": 0
+        },
+        "image": {
+          "type": "image",
+          "image_crop": true,
+          "keep_image_size": true,
+          "image_width": "16",
+          "image_height": "9",
+          "pos": 1
+        },
+        "intro": {
+          "type": "textarea",
+          "pos": 2
+        },
+        "long_text": {
+          "type": "textarea",
+          "pos": 3
+        },
+        "author": {
+          "type": "option",
+          "use_uuid": true,
+          "source": "internal_stories",
+          "pos": 4
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Post",
+      "component_group_uuid": null
+    },
+    {
+      "name": "teaser",
+      "display_name": null,
+      "created_at": "2020-09-01T09:31:26.358Z",
+      "updated_at": "2020-09-01T13:43:40.954Z",
+      "id": 1078841,
+      "schema": {
+        "headline": {
+          "type": "text"
+        },
+        "description": {
+          "type": "text"
+        },
+        "logo": {
+          "type": "asset",
+          "filetypes": [
+            "images"
+          ]
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "teaser",
+      "component_group_uuid": null
+    }
+  ]
+}
